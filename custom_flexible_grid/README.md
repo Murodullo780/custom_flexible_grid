@@ -23,7 +23,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  custom_flexible_grid: ^1.0.1
+  custom_flexible_grid: ^1.0.2
 
 ```
 

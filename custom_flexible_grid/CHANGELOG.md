@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.2] - 2026-02-28
+
+### 🛠 Fix
+- Default scroll physics behavior.
+
 ## [1.0.1] - 2025-05-17
 
 ### ✨ Added
