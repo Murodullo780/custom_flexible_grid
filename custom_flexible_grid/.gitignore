@@ -1,0 +1,10 @@
+# Flutter
+.dart_tool/
+.packages
+.pub/
+build/
+.idea/
+android/.gradle/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+*.iml
