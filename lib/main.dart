@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Custom Flexible Grid',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
@@ -81,30 +81,6 @@ class _HomePageState extends State<HomePage> {
           );
         }),
       ),
-      // body: GridView.builder(
-      //     gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-      //       crossAxisCount: 3,
-      //       mainAxisSpacing: 8,
-      //       crossAxisSpacing: 8,
-      //     ),
-      //     itemCount: numbers.length,
-      //     itemBuilder: (context, index) {
-      //       return Container(
-      //         padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-      //         decoration: BoxDecoration(
-      //           color: Colors.deepPurple,
-      //           borderRadius: BorderRadius.circular(8),
-      //         ),
-      //         height: (numbers[index] + 1) * 5,
-      //         child: Center(
-      //           child: Text(
-      //             'Height: ${numbers[index] + 1} * 5',
-      //             textAlign: TextAlign.center,
-      //             style: const TextStyle(color: Colors.white),
-      //           ),
-      //         ),
-      //       );
-      //     }),
     );
   }
 }

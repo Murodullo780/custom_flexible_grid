@@ -122,7 +122,7 @@ class CustomFlexibleGrid extends StatelessWidget {
 
     final scrollView = SingleChildScrollView(
       scrollDirection: axis,
-      physics: physics ?? const BouncingScrollPhysics(),
+      physics: physics,
       controller: controller,
       padding: EdgeInsets.zero,
       child: layout,
